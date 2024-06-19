@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding-top: 80px;
+}
+
+/* * Header Design - start */
+header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  box-shadow: 1px 1px 5px rgb(194, 194, 194);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  display: flex;
+}
+
+nav > div {
+  width: 50%;
+}
+
+.nav-1 {
+  padding-top: 1px;
+  display: flex;
+}
+
+.logo {
+  margin: 15px 10px 0 150px;
+  vertical-align: baseline;
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2rem;
+  color: #273043;
+  font-family: sans-serif;
+}
+
+.nav-2 > ul {
+  margin: 0 auto;
+  min-width: 50%;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list > li {
+  margin-top: 30px;
+  list-style: none;
+  font-size: 0.9rem;
+
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #dd0426;
+}
+
+/* * Header Design - end */
+
+/* * main - start */
+
+section {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+/* Section-1 Styles - start*/
+
+.section-1 {
+  display: flex;
+}
+
+.intro-container {
+  width: 50%;
+  border: none;
+}
+
+.intro {
+  min-width: 80%;
+  margin: 90px 20% 150px;
+}
+
+.underline {
+  font-family: sans-serif;
+  padding: 15px 0;
+  border-bottom: 3px solid #273043;
+}
+.intro > p {
+  width: 160px;
+  color: #9197ae;
+  font-weight: 600;
+}
+
+.hero {
+  margin: 50px 0 0;
+  font-size: 7rem;
+}
+
+.title {
+  font-size: 3rem;
+  color: #9197ae;
+}
+
+.intro-contact {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.intro-contact i {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #f02d3a;
+}
+
+.gmail > i {
+  margin-top: 10px;
+}
+
+.gmail > a,
+.facebook > a {
+  color: #273043;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.profile {
+  width: 50%;
+  overflow: hidden;
+  border: none;
+}
+
+.profile-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #f02d3a;
+  border-radius: 0 0 50% 60%;
+  position: relative;
+  left: 200px;
+  padding-top: 1px;
+}
+
+.profile-img {
+  margin-top: 50px;
+  width: 600px;
+  height: 600px;
+  background-color: #273043;
+  background-image: url("./imgs/Profile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 400px;
+  position: relative;
+  right: 150px;
+  overflow: hidden;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(39, 48, 67, 0.3);
+  
+}
+/* Section-1 styles - end */
+
+/* *Main - end */
