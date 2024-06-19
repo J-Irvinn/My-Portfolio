@@ -127,6 +127,7 @@ section {
   margin-top: 50px;
   width: 100%;
   height: auto;
+
 }
 
 .intro-contact i {
@@ -143,8 +144,9 @@ section {
 .facebook > a {
   color: #273043;
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-left: 5px;
+  text-decoration: underline;
 }
 
 .profile {
