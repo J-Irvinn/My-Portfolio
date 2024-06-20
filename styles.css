@@ -72,13 +72,15 @@ h1 {
   font-family: sans-serif;
 }
 a {
+  
+  padding: 20px;
   text-decoration: none;
   color: #dd0426;
 }
 
 .list a:hover{
   color: #273043;
-  border-bottom: 2px solid #273043;
+  border-bottom: 4px solid #273043;
 }
 
 /* * Header Design - end */
@@ -104,7 +106,7 @@ section {
 
 .intro {
   min-width: 80%;
-  margin: 90px 20% 150px;
+  margin: 90px 0 150px 20%;
 }
 
 .underline {
@@ -192,6 +194,12 @@ section {
 }
 /* Section-1 styles - end */
 
+/* Section-2 Styles - start */
+
+
+/* Section-2 Styles - end */
+
+
 /* *Main - end */
 
 
@@ -208,4 +216,9 @@ footer{
   .section-1 fieldset{
     width: 100%;
   }
+
+  .intro {
+    margin: 50px 0 150px 10%;
+  }
+  
 }
