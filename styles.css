@@ -83,6 +83,10 @@ li a {
   border-bottom: 4px solid #273043;
 }
 
+.active{
+  font-weight: 700;
+}
+
 /* * Header Design - end */
 
 /* * main - start */
@@ -204,6 +208,7 @@ section {
 
 .section-2 {
   padding-top: 1px;
+  padding-bottom: 100px;
 }
 
 fieldset.about {
@@ -219,7 +224,7 @@ h2 {
 
 .para-about {
   margin-top: 20px;
-  font-size: 3rem;
+  font-size: 2.6rem;
   font-weight: 600;
   text-align: justify;
 }
@@ -261,7 +266,7 @@ footer div {
   }
 
   .nav-1{
-    width: 30%;
+    width: 40%;
   }
 
   .intro {
