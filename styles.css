@@ -59,11 +59,10 @@ h1 {
 
 .nav-2 > ul {
   margin: 0 auto;
-  
+
   max-width: 70%;
   display: flex;
   justify-content: space-evenly;
-  
 }
 
 .list > li {
@@ -83,7 +82,7 @@ li a {
   border-bottom: 4px solid #273043;
 }
 
-.active{
+.active {
   font-weight: 700;
 }
 
@@ -248,12 +247,11 @@ footer div {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  user-select: none;
 }
 /* * For Tablet devices */
 @media only screen and (max-width: 1200px) {
-
-  .logo{
+  .logo {
     margin-left: 50px;
   }
 
@@ -265,7 +263,7 @@ footer div {
     width: 100%;
   }
 
-  .nav-1{
+  .nav-1 {
     width: 40%;
   }
 
