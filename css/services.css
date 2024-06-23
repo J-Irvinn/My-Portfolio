@@ -138,6 +138,10 @@ footer div {
 
 /* * For Tablet devices */
 @media only screen and (max-width: 1200px) {
+  .logo {
+    margin-left: 50px;
+  }
+
   .nav-1 {
     width: 40%;
   }
